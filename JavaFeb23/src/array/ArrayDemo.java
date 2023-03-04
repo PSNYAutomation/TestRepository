@@ -26,8 +26,6 @@ public class ArrayDemo {
 		for(int v: number) {
 			System.out.println(v);			
 		}
-		
-		
 
 	}
 
