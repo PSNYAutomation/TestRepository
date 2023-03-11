@@ -1,6 +1,6 @@
 package array;
 
-public class TwoDArray {
+public class TwoDArray2 {
 
 	public static void main(String[] args) {
 		
@@ -17,6 +17,36 @@ public class TwoDArray {
 		my2DArray[1][2] = 3;
 		
 		System.out.println(my2DArray[1][1]);
+		//another way of declaring 2D array 
+		int [][] array2 = {{4, 56, 83},{90, 20, 63}};
+		int length = array2.length;
+		int length2 = array2[1].length;
+		
+		for (int i=0; i<length; i++) {
+			for(int j=0; j<length2; j++) {
+				System.out.println(array2[i][j]);
+			}
+		}
+		
+		
+		
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
